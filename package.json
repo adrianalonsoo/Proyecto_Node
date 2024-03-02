@@ -1,9 +1,11 @@
 {
   "name": "proyectonode",
   "version": "0.0.0",
-  "private": true,
+  "main": "www",
+  "type": "module",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
